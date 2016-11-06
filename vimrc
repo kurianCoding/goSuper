@@ -1,3 +1,4 @@
+"vim file for go
 set nocompatible
 execute pathogen#infect()
 syntax on

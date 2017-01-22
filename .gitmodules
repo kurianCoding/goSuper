@@ -1,0 +1,3 @@
+[submodule "nick"]
+	path = code/nick
+	url = git@github.com:kurianCoding/nick.git 

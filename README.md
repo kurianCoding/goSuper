@@ -1,2 +1,1 @@
-# nick
-a small repository of crisp code
+#THIS IS A TEST FOR GIT MERGE

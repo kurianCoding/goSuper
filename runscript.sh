@@ -1,6 +1,7 @@
-docker run --name goDev \
-	--env-file $PWD/go.env\
-	-v $PWD/src:/go/src\
-	-v $PWD/bin:/go/bin\
-	-v $PWD/code:/go/src/github.com/kurianCoding/golang\
-	$1
+docker rm -f goDev 
+docker run  --name goDev -it \
+    -v $PWD/Go:/go \
+    -v $PWD/deps:/home/code\
+    -v $PWD/code:/home/code/src/github.com/kurianCoding \
+    --env-file $PWD/goenv.env \
+    $1 bash
